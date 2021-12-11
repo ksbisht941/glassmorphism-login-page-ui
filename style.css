@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@300;400;500;600&display=swap');
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+body {
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+    background-color: #F5DDD9;
+
+    background-image: url(./Saly-10.png);
+    background-position: right bottom;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+section {
+    height: 100vh;
+    width: 100%;
+    max-width: 1200px;
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    row-gap: 0;
+    align-items: center;
+    justify-content: center;
+    column-gap: 8rem;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Readex Pro', sans-serif;
+}
+
+section form {
+    background: rgba( 255, 255, 255, 0.25 );
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    padding: 60px 40px;
+}
+
+section form .form-header {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-bottom: 30px;
+}
+
+section form .form-header .logo {
+    font-size: 20px;
+    line-height: 30px;
+    cursor: pointer;
+}
+
+
+section form .form-header .signup {
+    text-align: right;
+}
+
+section form .form-header .signup a {
+    font-size: 12px;
+    line-height: 17px;
+    font-weight: 300;
+    color: #5B6EE6;
+    text-decoration: none;
+}
+
+section form h2 {
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+
+section form .button-group {
+    display: grid;
+    grid-template-columns: 85% 1fr;
+    grid-column-gap: 10px;
+    margin-bottom: 30px;
+}
+
+section form .button-group button {
+    padding: 15px;
+    border: none;
+    color: #fff;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    cursor: pointer;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section form .button-group button.btn-google {
+    font-size: 15px;
+    line-height: 25px;
+    font-weight: 400;
+    background-color: #5B6EE6;
+}
+
+section form .button-group button.btn-google ion-icon {
+    margin-right: 10px;
+    font-size: 22px;
+}
+
+section form .button-group button.btn-dribble {
+   font-size: 22px;
+   color: #D2467F;
+   background-color: #F3CCF3;
+}
+
+section form .input-group {
+    margin-bottom: 25px;
+}
+
+section form .input-group .label {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+section form .input-group .label label {
+    font-size: 14px;
+    font-weight: 300;
+    color: grey;
+}
+
+section form .input-group .label a {
+    font-size: 13px;
+    font-weight: 300;
+    color: #5B6EE6;
+    text-decoration: none;
+}
+
+section form .input-group input {
+    display: block;
+    width: 100%;
+    height: 50px;
+    background-color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    font-size: 15px;
+    line-height: 25px;
+}
+
+section form .input-group input:focus  {
+    outline: none;
+}
+
+section button.btn-submit {
+    padding: 10px 30px;
+    background-color: #000;
+    color: #fff;
+    font-size: 15px;
+    line-height: 25px;
+    border: none;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    cursor: pointer;
+}

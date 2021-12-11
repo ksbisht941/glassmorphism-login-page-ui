@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+        <form>
+            <div class="form-header">
+                <div class="logo">
+                    Logo
+                </div>
+
+                <div class="signup">
+                    <a href="#" class="btn-sign">
+                        No account?<br/>Signup
+                    </a>
+                </div>
+            </div>
+            <h2>Sign in</h2>
+            <div class="button-group">
+                <button class="btn-google" type="button">
+                    <ion-icon name="logo-google"></ion-icon> Sign in with Google
+                </button>
+                <button class="btn-dribble" type="button">
+                    <ion-icon name="logo-dribbble"></ion-icon>
+                </button>
+            </div>
+
+            <div class="input-group">
+                <div class="label">
+                    <label for="username">Username or Email Address</label>
+                </div>
+                <input type="text" name="username" id="username" placeholder="hello@example.com" required>
+            </div>
+            <div class="input-group">
+                <div class="label">
+                    <label for="password">Password</label>
+                    <a href="#" class="forgot">Forgot Password?</a>
+                </div>
+                <input type="password" name="password" id="password" placeholder="Enter Password" required>
+            </div>
+
+            <button class="btn-submit" type="submit">Signin</button>
+        </form>
+    </section>
+
+    <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+
+</body>
+</html>
